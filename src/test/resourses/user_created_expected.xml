@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+   <user login="teddy_bear" full_name="Ted Mosby" birth_date="1978-04-25" />
+   <user login="robin_bobin" full_name="Robin Scherbatsky" birth_date="1980-08-29" />
+   <user login="sweetie" full_name="Barney Stinson" birth_date="1976-02-01" />
+</dataset>
