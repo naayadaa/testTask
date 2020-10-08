@@ -1,15 +1,17 @@
 package com.naayadaa.testTask.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import org.hibernate.validator.constraints.Length;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.Date;
 
 public class UserRequest {
 
-    @Length(min = 3, max = 39)
+    @NotNull
+    @Size(min = 3, max = 39)
     private String login;
-    @Length(min = 3, max = 150)
+    @Size(min = 3, max = 150)
     private String fullName;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private Date birthDate;

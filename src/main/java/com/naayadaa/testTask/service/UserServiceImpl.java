@@ -9,9 +9,7 @@ import com.naayadaa.testTask.exception.BadRequestError;
 import com.naayadaa.testTask.exception.NotFoundError;
 import com.naayadaa.testTask.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import org.springframework.web.server.ResponseStatusException;
 
 import javax.transaction.Transactional;
 import java.util.Optional;

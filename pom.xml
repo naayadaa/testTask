@@ -15,7 +15,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <spring-boot.run.jvmArguments>-Duser.timezone=UTC</spring-boot.run.jvmArguments>
+        <spring-boot.run.jvmArguments>-Duser.timezone=UTC -Duser.language=en -Duser.region=EN</spring-boot.run.jvmArguments>
     </properties>
 
     <dependencies>

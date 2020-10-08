@@ -17,9 +17,9 @@ public class User {
             name = "native",
             strategy = "native"
     )    private Long id;
-    @Column(unique = true)
+    @Column(unique = true, nullable = false)
     private String uuid;
-    @Column(unique = true)
+    @Column(unique = true, nullable = false)
     private String login;
     @Column(name = "full_name")
     private String fullName;
